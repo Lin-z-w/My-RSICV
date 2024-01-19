@@ -1,0 +1,416 @@
+
+*** Running vivado
+    with args -log lab12.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab12.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source lab12.tcl -notrace
+Command: synth_design -top lab12 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3476
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1130.102 ; gain = 20.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab12' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/clk_wiz_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'locked' of module 'clk_wiz_0' is unconnected for instance 'myvgaclk' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:42]
+WARNING: [Synth 8-7023] instance 'myvgaclk' of module 'clk_wiz_0' has 4 connections declared, but only 3 given [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:42]
+INFO: [Synth 8-6157] synthesizing module 'rv32is' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:1]
+INFO: [Synth 8-6157] synthesizing module 'control_gen' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'control_gen' (2#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:101]
+INFO: [Synth 8-6157] synthesizing module 'imm_gen' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:210]
+INFO: [Synth 8-6155] done synthesizing module 'imm_gen' (3#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:210]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:234]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (4#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:234]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (5#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:76]
+INFO: [Synth 8-6157] synthesizing module 'NextPC' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:292]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:309]
+INFO: [Synth 8-6155] done synthesizing module 'NextPC' (6#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:292]
+INFO: [Synth 8-6155] done synthesizing module 'rv32is' (7#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:1]
+WARNING: [Synth 8-7071] port 'dbgdata' of module 'rv32is' is unconnected for instance 'mycpu' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:52]
+WARNING: [Synth 8-7023] instance 'mycpu' of module 'rv32is' has 13 connections declared, but only 12 given [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:52]
+INFO: [Synth 8-6157] synthesizing module 'clkgen' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v:23]
+	Parameter clk_freq bound to: 1 - type: integer 
+	Parameter countlimit bound to: 49999999 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkgen' (8#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mydmem' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mem' [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/mem_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (9#1) [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/mem_stub.v:6]
+WARNING: [Synth 8-567] referenced signal 'we' should be on the sensitivity list [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:30]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'mydmem' (10#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (11#1) [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'blk_mem_gen_0' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:116]
+INFO: [Synth 8-6157] synthesizing module 'vga_ctrl' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/vga_ctrl.v:1]
+	Parameter h_frontporch bound to: 96 - type: integer 
+	Parameter h_active bound to: 144 - type: integer 
+	Parameter h_backporch bound to: 784 - type: integer 
+	Parameter h_total bound to: 800 - type: integer 
+	Parameter v_frontporch bound to: 2 - type: integer 
+	Parameter v_active bound to: 35 - type: integer 
+	Parameter v_backporch bound to: 515 - type: integer 
+	Parameter v_total bound to: 525 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga_ctrl' (12#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/vga_ctrl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'vgaram' [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/vgaram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vgaram' (13#1) [C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/.Xil/Vivado-9528-DESKTOP-V1DGMLK/realtime/vgaram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'read_vga_data' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/read_vga_data.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:\Users\Administrator\Desktop\lab12\vga_font_new.txt' is read successfully [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/read_vga_data.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'read_vga_data' (14#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/read_vga_data.v:23]
+INFO: [Synth 8-6157] synthesizing module 'kbd_buffer' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/kbd_buffer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'kbd_buffer' (15#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/kbd_buffer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keyboard' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:1]
+INFO: [Synth 8-6157] synthesizing module 'scancode_ram' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:153]
+INFO: [Synth 8-3876] $readmem data file 'C:\Users\Administrator\Desktop\lab12\at.txt' is read successfully [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:165]
+INFO: [Synth 8-3876] $readmem data file 'C:\Users\Administrator\Desktop\lab12\shift.txt' is read successfully [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:166]
+INFO: [Synth 8-6155] done synthesizing module 'scancode_ram' (16#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:153]
+INFO: [Synth 8-6157] synthesizing module 'ps2_keyboard' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'ps2_keyboard' (17#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'keyboard' (18#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clkgen__parameterized0' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v:23]
+	Parameter clk_freq bound to: 10000 - type: integer 
+	Parameter countlimit bound to: 4999 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkgen__parameterized0' (18#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sevenseg' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/sevenseg.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/sevenseg.v:39]
+WARNING: [Synth 8-567] referenced signal 'digits' should be on the sensitivity list [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/sevenseg.v:38]
+INFO: [Synth 8-6157] synthesizing module 'decode38' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/decode38.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'decode38' (19#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/decode38.v:23]
+INFO: [Synth 8-6157] synthesizing module 'bcd7seg' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/bcd7seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcd7seg' (20#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/bcd7seg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sevenseg' (21#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/sevenseg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clkgen__parameterized1' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v:23]
+	Parameter clk_freq bound to: 1000 - type: integer 
+	Parameter countlimit bound to: 49999 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkgen__parameterized1' (21#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'lab12' (22#1) [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1195.445 ; gain = 85.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1195.445 ; gain = 85.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1195.445 ; gain = 85.797
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1195.445 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'myvgaclk'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'myvgaclk'
+Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/mem/mem/mem_in_context.xdc] for cell 'dmem/dmem'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/mem/mem/mem_in_context.xdc] for cell 'dmem/dmem'
+Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'imem'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'imem'
+Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/vgaram/vgaram/vgaram_in_context.xdc] for cell 'myvgaram'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/vgaram/vgaram/vgaram_in_context.xdc] for cell 'myvgaram'
+Parsing XDC File [C:/Users/Administrator/Desktop/lab12/lab12.srcs/constrs_1/imports/universal_file/nexysa7.xdc]
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/lab12/lab12.srcs/constrs_1/imports/universal_file/nexysa7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Administrator/Desktop/lab12/lab12.srcs/constrs_1/imports/universal_file/nexysa7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab12_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab12_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1318.133 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1318.133 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1318.133 ; gain = 208.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1318.133 ; gain = 208.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for myvgaclk. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for dmem/dmem. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for imem. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for myvgaram. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1318.133 ; gain = 208.484
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'less_reg' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v:251]
+WARNING: [Synth 8-327] inferring latch for variable 'dataout_reg' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'realdatain_reg' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v:20]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1318.133 ; gain = 208.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 4     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 6     
+	   2 Input    3 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---XORs : 
+	                9 Bit    Wide XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 10    
++---RAMs : 
+	             1024 Bit	(32 X 32 bit)          RAMs := 1     
+	              128 Bit	(16 X 8 bit)          RAMs := 1     
+	               64 Bit	(8 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 5     
+	  11 Input   32 Bit        Muxes := 1     
+	   3 Input   32 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 3     
+	   6 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 5     
+	   4 Input    8 Bit        Muxes := 1     
+	 257 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 3     
+	   8 Input    8 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 1     
+	  10 Input    4 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	  10 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   6 Input    3 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 36    
+	  11 Input    1 Bit        Muxes := 2     
+	   6 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Why this net has no driver: _order_recur <const0>
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1319.777 ; gain = 210.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++--------------+------------+---------------+----------------+
+|Module Name   | RTL Object | Depth x Width | Implemented As | 
++--------------+------------+---------------+----------------+
+|read_vga_data | p_0_out    | 4096x10       | LUT            | 
+|read_vga_data | p_0_out    | 4096x10       | LUT            | 
++--------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+--------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------+-----------+----------------------+--------------+
+|mycpu       | myregfile/regs_reg | Implied   | 32 x 32              | RAM32M x 12	 | 
+|mykbdbuffer | buffer_reg         | Implied   | 16 x 8               | RAM32M x 2	  | 
+|mykbd       | mykey/fifo_reg     | Implied   | 8 x 8                | RAM32M x 2	  | 
++------------+--------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1319.777 ; gain = 210.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1453.461 ; gain = 343.813
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+--------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------+-----------+----------------------+--------------+
+|mycpu       | myregfile/regs_reg | Implied   | 32 x 32              | RAM32M x 12	 | 
+|mykbdbuffer | buffer_reg         | Implied   | 16 x 8               | RAM32M x 2	  | 
+|mykbd       | mykey/fifo_reg     | Implied   | 8 x 8                | RAM32M x 2	  | 
++------------+--------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_0 |         1|
+|3     |vgaram        |         1|
+|4     |mem           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     1|
+|2     |clk_wiz     |     1|
+|3     |mem         |     1|
+|4     |vgaram      |     1|
+|5     |BUFG        |     4|
+|6     |CARRY4      |    79|
+|7     |LUT1        |    15|
+|8     |LUT2        |    59|
+|9     |LUT3        |   272|
+|10    |LUT4        |   243|
+|11    |LUT5        |   243|
+|12    |LUT6        |  1082|
+|13    |MUXF7       |   204|
+|14    |MUXF8       |    89|
+|15    |RAM32M      |    16|
+|16    |FDCE        |     9|
+|17    |FDPE        |     1|
+|18    |FDRE        |   400|
+|19    |FDSE        |     5|
+|20    |LD          |    65|
+|21    |IBUF        |     4|
+|22    |OBUF        |    46|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1463.496 ; gain = 353.848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1463.496 ; gain = 231.160
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1463.496 ; gain = 353.848
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1463.496 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 453 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1463.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 81 instances were transformed.
+  LD => LDCE: 65 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+71 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1463.496 ; gain = 353.848
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/lab12/lab12.runs/synth_1/lab12.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab12_utilization_synth.rpt -pb lab12_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 22 21:34:20 2023...

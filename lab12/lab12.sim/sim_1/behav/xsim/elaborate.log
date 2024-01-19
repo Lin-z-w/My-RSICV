@@ -1,0 +1,59 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ffe78d8df7a2449a8828f3375e4d4b07 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'BTNC' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sim_1/new/test.v:60]
+WARNING: [VRFC 10-3091] actual bit length 15 differs from formal bit length 12 for port 'addra' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:116]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 14 for port 'addra' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:168]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 14 for port 'addrb' [C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v:174]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.control_gen
+Compiling module xil_defaultlib.imm_gen
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.NextPC
+Compiling module xil_defaultlib.rv32is
+Compiling module xil_defaultlib.clkgen(clk_freq=1)
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mydmem
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.vga_ctrl
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.vgaram
+Compiling module xil_defaultlib.read_vga_data
+Compiling module xil_defaultlib.kbd_buffer
+Compiling module xil_defaultlib.scancode_ram
+Compiling module xil_defaultlib.ps2_keyboard
+Compiling module xil_defaultlib.keyboard
+Compiling module xil_defaultlib.clkgen(clk_freq=10000)
+Compiling module xil_defaultlib.decode38
+Compiling module xil_defaultlib.bcd7seg
+Compiling module xil_defaultlib.sevenseg
+Compiling module xil_defaultlib.clkgen_default
+Compiling module xil_defaultlib.lab12
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

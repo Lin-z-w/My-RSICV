@@ -1,0 +1,25 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1677060319,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/mem/sim/mem.v,,blk_mem_gen_0,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1676612105,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v,,clk_wiz_0,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1676612105,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/mem/sim/mem.v,1677060300,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,mem,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/vgaram/sim/vgaram.v,1677060838,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,vgaram,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sim_1/imports/new/keyboard_sim.v,1677037503,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v,,keyboard_sim,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sim_1/imports/new/ps2_keyboard_model.v,1667957569,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/read_vga_data.v,,ps2_keyboard_model,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sim_1/new/test.v,1677041155,verilog,,,,test,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/code/CPU.v,1670374834,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/code/MUX.v,,CPU,,,,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v,1670557279,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v,,keyboard;ps2_keyboard;scancode_ram,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v,1666524188,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/decode38.v,,clkgen,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/CPUinAll.v,1677042211,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/bcd7seg.v,,ALU;NextPC;control_gen;imm_gen;regfile;rv32is,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/bcd7seg.v,1666524188,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/sevenseg/clkgen.v,,bcd7seg,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/decode38.v,1666524188,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/kbd_buffer.v,,decode38,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/kbd_buffer.v,1677051226,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/imports/new/keyboard.v,,kbd_buffer,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/lab12.v,1677064398,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v,,lab12,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/mydmem.v,1677049760,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/read_vga_data.v,,mydmem,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/read_vga_data.v,1676375605,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/sevenseg.v,,read_vga_data,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/sevenseg.v,1666524188,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/vga_ctrl.v,,sevenseg,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Administrator/Desktop/lab12/lab12.srcs/sources_1/new/vga_ctrl.v,1669603755,verilog,,C:/Users/Administrator/Desktop/lab12/lab12.srcs/sim_1/new/test.v,,vga_ctrl,,,../../../../lab12.gen/sources_1/ip/clk_wiz_0,,,,,

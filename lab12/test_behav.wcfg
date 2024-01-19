@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="560000fs"></ZoomStartTime>
+      <ZoomEndTime time="3825001fs"></ZoomEndTime>
+      <Cursor1Time time="2305000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="107" />
+   <wvobject fp_name="/test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/HEX" type="array">
+      <obj_property name="ElementShortName">HEX[7:0]</obj_property>
+      <obj_property name="ObjectShortName">HEX[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_R" type="array">
+      <obj_property name="ElementShortName">VGA_R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_R[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_G" type="array">
+      <obj_property name="ElementShortName">VGA_G[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_G[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_B" type="array">
+      <obj_property name="ElementShortName">VGA_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_HS" type="logic">
+      <obj_property name="ElementShortName">VGA_HS</obj_property>
+      <obj_property name="ObjectShortName">VGA_HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/VGA_VS" type="logic">
+      <obj_property name="ElementShortName">VGA_VS</obj_property>
+      <obj_property name="ObjectShortName">VGA_VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/SW" type="array">
+      <obj_property name="ElementShortName">SW[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/imemaddr" type="array">
+      <obj_property name="ElementShortName">imemaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imemaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/imemdataout" type="array">
+      <obj_property name="ElementShortName">imemdataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imemdataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/imemclk" type="logic">
+      <obj_property name="ElementShortName">imemclk</obj_property>
+      <obj_property name="ObjectShortName">imemclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemaddr" type="array">
+      <obj_property name="ElementShortName">dmemaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmemaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemdataout" type="array">
+      <obj_property name="ElementShortName">dmemdataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmemdataout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemdatain" type="array">
+      <obj_property name="ElementShortName">dmemdatain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmemdatain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemrdclk" type="logic">
+      <obj_property name="ElementShortName">dmemrdclk</obj_property>
+      <obj_property name="ObjectShortName">dmemrdclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemwrclk" type="logic">
+      <obj_property name="ElementShortName">dmemwrclk</obj_property>
+      <obj_property name="ObjectShortName">dmemwrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemop" type="array">
+      <obj_property name="ElementShortName">dmemop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dmemop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dmemwe" type="logic">
+      <obj_property name="ElementShortName">dmemwe</obj_property>
+      <obj_property name="ObjectShortName">dmemwe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/op" type="array">
+      <obj_property name="ElementShortName">op[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/func7" type="array">
+      <obj_property name="ElementShortName">func7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">func7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/dataa" type="array">
+      <obj_property name="ElementShortName">dataa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataa[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/datab" type="array">
+      <obj_property name="ElementShortName">datab[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datab[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/less" type="logic">
+      <obj_property name="ElementShortName">less</obj_property>
+      <obj_property name="ObjectShortName">less</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/RegWr" type="logic">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/ALUAsrc" type="logic">
+      <obj_property name="ElementShortName">ALUAsrc</obj_property>
+      <obj_property name="ObjectShortName">ALUAsrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/ALUBsrc" type="array">
+      <obj_property name="ElementShortName">ALUBsrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUBsrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/ExtOP" type="array">
+      <obj_property name="ElementShortName">ExtOP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtOP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/Branch" type="array">
+      <obj_property name="ElementShortName">Branch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Branch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/ALUctr" type="array">
+      <obj_property name="ElementShortName">ALUctr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUctr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/imem/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/imem/addra" type="array">
+      <obj_property name="ElementShortName">addra[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/imem/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/imem/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/ascii_key" type="array">
+      <obj_property name="ElementShortName">ascii_key[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii_key[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/key_count" type="array">
+      <obj_property name="ElementShortName">key_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">key_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/cpu_rd" type="array">
+      <obj_property name="ElementShortName">cpu_rd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_rd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[15:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/last_key_count" type="array">
+      <obj_property name="ElementShortName">last_key_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">last_key_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/head" type="array">
+      <obj_property name="ElementShortName">head[3:0]</obj_property>
+      <obj_property name="ObjectShortName">head[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mykbdbuffer/tail" type="array">
+      <obj_property name="ElementShortName">tail[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tail[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs" type="array">
+      <obj_property name="ElementShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[31]" type="array">
+      <obj_property name="ElementShortName">[31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[30]" type="array">
+      <obj_property name="ElementShortName">[30][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[29]" type="array">
+      <obj_property name="ElementShortName">[29][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[28]" type="array">
+      <obj_property name="ElementShortName">[28][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[27]" type="array">
+      <obj_property name="ElementShortName">[27][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[26]" type="array">
+      <obj_property name="ElementShortName">[26][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[25]" type="array">
+      <obj_property name="ElementShortName">[25][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[24]" type="array">
+      <obj_property name="ElementShortName">[24][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[23]" type="array">
+      <obj_property name="ElementShortName">[23][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[22]" type="array">
+      <obj_property name="ElementShortName">[22][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[21]" type="array">
+      <obj_property name="ElementShortName">[21][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[20]" type="array">
+      <obj_property name="ElementShortName">[20][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[19]" type="array">
+      <obj_property name="ElementShortName">[19][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[18]" type="array">
+      <obj_property name="ElementShortName">[18][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[17]" type="array">
+      <obj_property name="ElementShortName">[17][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[16]" type="array">
+      <obj_property name="ElementShortName">[16][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[15]" type="array">
+      <obj_property name="ElementShortName">[15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[14]" type="array">
+      <obj_property name="ElementShortName">[14][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[13]" type="array">
+      <obj_property name="ElementShortName">[13][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[12]" type="array">
+      <obj_property name="ElementShortName">[12][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[11]" type="array">
+      <obj_property name="ElementShortName">[11][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[10]" type="array">
+      <obj_property name="ElementShortName">[10][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[7]" type="array">
+      <obj_property name="ElementShortName">[7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/mycpu/myregfile/regs[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/h_font" type="array">
+      <obj_property name="ElementShortName">h_font[3:0]</obj_property>
+      <obj_property name="ObjectShortName">h_font[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/v_font" type="array">
+      <obj_property name="ElementShortName">v_font[3:0]</obj_property>
+      <obj_property name="ObjectShortName">v_font[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/char_in" type="array">
+      <obj_property name="ElementShortName">char_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/cursor" type="logic">
+      <obj_property name="ElementShortName">cursor</obj_property>
+      <obj_property name="ObjectShortName">cursor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/vga_data" type="array">
+      <obj_property name="ElementShortName">vga_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/font_color" type="array">
+      <obj_property name="ElementShortName">font_color[11:0]</obj_property>
+      <obj_property name="ObjectShortName">font_color[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/back_color" type="array">
+      <obj_property name="ElementShortName">back_color[11:0]</obj_property>
+      <obj_property name="ObjectShortName">back_color[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/ascii_bit" type="array">
+      <obj_property name="ElementShortName">ascii_bit[4095:0][11:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii_bit[4095:0][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/rdvgadata/line" type="array">
+      <obj_property name="ElementShortName">line[11:0]</obj_property>
+      <obj_property name="ObjectShortName">line[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/addra" type="array">
+      <obj_property name="ElementShortName">addra[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[13:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/myvgaram/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/i1/char_rd_addr" type="array">
+      <obj_property name="ElementShortName">char_rd_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">char_rd_addr[11:0]</obj_property>
+   </wvobject>
+</wave_config>

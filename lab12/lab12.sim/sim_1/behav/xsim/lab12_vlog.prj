@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab12.gen/sources_1/ip/vgaram/sim/vgaram.v" \
+"../../../../lab12.gen/sources_1/ip/mem/sim/mem.v" \
+"../../../../lab12.srcs/sources_1/imports/code/ALU.v" \
+"../../../../lab12.srcs/sources_1/imports/code/CPU.v" \
+"../../../../lab12.srcs/sources_1/imports/code/MUX.v" \
+"../../../../lab12.srcs/sources_1/new/bcd7seg.v" \
+"../../../../lab12.srcs/sources_1/imports/sevenseg/clkgen.v" \
+"../../../../lab12.srcs/sources_1/imports/code/ctrlgenerate.v" \
+"../../../../lab12.srcs/sources_1/new/decode38.v" \
+"../../../../lab12.srcs/sources_1/imports/code/immgenerate.v" \
+"../../../../lab12.srcs/sources_1/new/kbd_buffer.v" \
+"../../../../lab12.srcs/sources_1/imports/new/keyboard.v" \
+"../../../../lab12.srcs/sources_1/imports/code/pcctrl.v" \
+"../../../../lab12.srcs/sources_1/new/read_vga_data.v" \
+"../../../../lab12.srcs/sources_1/imports/code/regfile.v" \
+"../../../../lab12.srcs/sources_1/new/sevenseg.v" \
+"../../../../lab12.srcs/sources_1/new/vga_ctrl.v" \
+"../../../../lab12.srcs/sources_1/new/lab12.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
